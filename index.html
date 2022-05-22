@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiratama</title>
+</head>
+<body>
+<h1>Survey Kepuasan Pelanggan</h1>
+<form action="#" class="container">
+    <br />
+    <label for="nama">Nama</label>
+    <input type="text" name="nama" id="nama"/>
+    <br />
+
+    <br />
+    <label for="umur">Umur</label>
+    <input type="text" name="umur" id="umur"/>
+    <br />
+
+    <br />
+    <label for="jeniskelamin" >Jenis Kelamin</label>
+    <br />
+    <input type="radio" name="jeniskelamin" id="jeniskelamin" value="Laki-Laki" /> Laki-Laki
+    <input type="radio" name="jeniskelamin" id="jeniskelamin" value="Perempuan" /> Perempuan
+    <br />
+
+    <br />
+    <label for="nike">Nilai Kepuasan (1-5)</label>
+    <input type="text" name="nike" id="nike"/>
+    <br />
+
+    <br />
+    <label for="produk" >Dari Mana Anda Mengetahui Produk Kami?</label>
+    <br />
+    <input type="checkbox" id="hobi" name="produk" value="Sosial Media" /> Sosial Media
+    <br />
+    <input type="checkbox" id="hobi" name="produk" value="Teman" /> Teman
+    <br />
+    <input type="checkbox" id="hobi" name="produk" value="Internet" /> Internet
+    <br />
+
+    <br />
+    <label for="layanan" >Apakah Anda Menggunakan Layanan Kami?</label>
+    <br />
+    <input type="radio" name="layanan" id="layanan" value="Ya" /> Ya
+    <input type="radio" name="layanan" id="layanan" value="Tidak" /> Tidak
+    <br />
+
+    <br />
+    <label for="ks" >Kritik dan Saran</label>
+    <br />
+    <textarea name="ks" id="ks" cols="30" rows="4"></textarea>
+    <br />
+
+    <br >
+    <input type="button" value="kirim" onclick="tampilData()"/>
+</form>
+<script src="script.js"></script> 
+
+</body>
+</html>
